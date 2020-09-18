@@ -73,11 +73,11 @@ public class Game implements Serializable{
 		this.platform = platform;
 	}
 
-	public Genre getGente() {
+	public Genre getGenre() {
 		return genre;
 	}
 
-	public void setGente(Genre gente) {
+	public void setGenre(Genre gente) {
 		this.genre = gente;
 	}
 	
