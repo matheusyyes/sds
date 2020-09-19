@@ -1,4 +1,4 @@
-package com.devsuperior.dspesquisa.Services;
+package com.devsuperior.dspesquisa.services;
 
 import java.time.Instant;
 

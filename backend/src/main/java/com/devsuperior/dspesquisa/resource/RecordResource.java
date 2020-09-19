@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devsuperior.dspesquisa.Services.RecordService;
 import com.devsuperior.dspesquisa.dto.RecordDTO;
 import com.devsuperior.dspesquisa.dto.RecordInsertDTO;
+import com.devsuperior.dspesquisa.services.RecordService;
 
 @RestController
 @RequestMapping(value = "/records")
