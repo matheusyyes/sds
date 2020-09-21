@@ -38,9 +38,11 @@ const Charts = () => {
            setBarChartData(barData);
 
             const platformChartData = getPlatformChartData(recordResponse.data.content);
+            console.log(platformChartData)
             setPlatformData(platformChartData);
 
             const genderChartData = getGenderChartData(recordResponse.data.content);
+            
             setGenderData(genderChartData);
 
         }
